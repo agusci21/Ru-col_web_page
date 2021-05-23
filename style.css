@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+
+header{
+    height:6rem ;
+    width:100%;
+    background-color: rgb(255, 255, 255,);
+    order: 1;
+}
+
+.header-color{
+    order: 2;
+    height: 6rem;
+    width: 100%;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    background: linear-gradient(90deg, rgba(35, 131, 241, 0.993),rgba(205, 0, 0, 0.692),rgba(205, 0, 0, 0.692));
+}
+
+.titulo-header-R{
+    margin-left: 5%;
+    font-size: 6rem;
+    color: rgba(231, 19, 19, 0.856);
+
+}
+
+.titulo-header-ucol{
+    font-size: 4.6rem;
+    color: rgb(14, 4, 61);
+}
+
+.titulo-header-repuestos{
+    margin-left: 3rem;
+    font-size:2.5rem;
+    color: rgb(10, 8, 107);
+}
+
+/*Inicio del main*/
+
+main{
+    margin-top: 0.8rem;
+    margin-left:0.5rem ;
+    margin-right:0.5rem ;
+}
+
+
+.divMainI{
+    background:linear-gradient(rgba(205, 0, 0, 0.692), rgb(196, 18, 5));
+    height: 20rem;
+    border-radius: 5rem;
+    padding: 2rem;
+    margin-bottom: 0.6rem;
+    
+}
+
+.quienesSomos{
+    font-size: 4rem;
+    color:rgb(8, 8, 97);
+}
+
+.quienesSomosTexto{
+    font-size: 1.8rem;
+}
+
+.divMainII{
+    background:linear-gradient( rgb(196, 18, 5), rgb(12, 12, 192));
+    height: 25rem;
+    border-radius: 5rem;
+    padding: 2rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+}
+
+.FotoNegocio{
+    height: 20rem;
+    border-radius: 2rem;
+    
+}
+
+.subDiv{
+    height: 100%;
+    width: 100%;
+}
+
+.dondeEstamos{
+font-size: 3rem;
+margin-left: 1rem;
+color: rgb(8, 8, 97);
+}
+
+.ubicacion{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: rgb(8, 8, 97);
+    font-size: 1.7rem;
+}
+
+.proveedores{
+    font-size: 2rem;
+    background:linear-gradient(rgb(90, 12, 192),rgb(255, 0, 76));
+    height: 20rem;
+    border-radius: 5rem;
+    padding: 2rem;
+    margin-bottom: 0.6rem;
+    padding: 5rem;
+}
+
+.links{
+    font-size: 2rem;
+    color: rgb(0, 0, 65);
+}
